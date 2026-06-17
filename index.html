@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div id="exchange-container">
+        <h1>Currency Converter</h1>
+        
+        <label for="amount-input">Amount:</label>
+        <input type="number" id="amount-input" placeholder="e.g., 100" value="1" />
+        
+        <label for="from-currency">From:</label>
+        <select id="from-currency">
+            </select>
+        
+        <label for="to-currency">To:</label>
+        <select id="to-currency">
+            </select>
+        
+        <button id="convert-button">Convert Amount</button>
+        
+        <div id="result">---</div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
